@@ -48,7 +48,7 @@ query ($query: String, $page: Int, $perPage: Int) {
 
 var variables = {
     page: 1,
-    perPage: 20
+    perPage: 50
 }
 
 // Define the config we'll need for our Api request
